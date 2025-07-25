@@ -1,0 +1,331 @@
+/* start style index */
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+body{
+    padding: auto;
+    margin: auto ;
+}
+.top_nav{
+    background-color:rgb(98, 208, 251);
+    padding: 0px;
+    margin: 0px;
+}
+.top-navigation nav-width{
+    background-color: rgb(98, 208, 251);
+}
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(98, 208, 251);
+}
+.nav-width{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.nav-logo{
+    width: 100px;
+}
+.nav-logo  img{
+    width: 100px;
+    gap: 3rem;
+}
+.main_left img{
+    width: 700px;
+    border-radius: 20px;  
+}
+.img_container{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.nav-list{
+    display: flex;
+    gap: 1.5rem ;
+    padding: 20px;
+    margin:10px;
+}
+
+.nav-list li a{
+    font-family: Kantumruy;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.nav-link{
+    list-style-type: none;
+}
+.nav-list a:hover{
+    color: rgb(91, 90, 91);
+}
+
+.contain_left{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(117, 115, 115);
+    
+}
+.main_left{
+    width: 50%;
+    /* height: 600px; */
+    overflow: hidden;  
+    position: relative;
+}
+.text_h2{
+    font-family: Bayon;
+    font-size: 60px;
+    color:white;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+.text_p{
+    font-family: Kantumruy;
+    font-size: 20px;
+    color:white;
+    text-align: center;  
+}
+.button_1{
+    font-family: Kh Koulen;
+    border-radius: 200px;
+    color: white;
+    background-color: rgb(30, 118, 241);
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    transition: 0.3s ease;
+}
+.button_1:hover{
+    background-color: rgba(3, 33, 187, 0.271);
+}
+
+/* end style index */
+
+/* responsive */
+@media screen and (max-width:768px){
+    .nav-list{
+        display: none;
+    }
+    .nav-logo{
+        width: 40px;
+    }
+    .nav-logo img{
+        width: 40px;
+    }
+    .main_left img{
+        width: 200px;
+    }
+    .text_h2{
+        font-size: 10px;
+    }
+    .text_p{
+        font-size: 10px;
+    }
+    .button_1{
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+/* start stye about as */
+.about-main{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.contain-width{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.about-img{
+    width: 100%;
+    /* overflow: hidden; */
+}
+.text-h2{
+    font-family: Bayon;
+}
+.ul-style{
+    background-color: blueviolet;
+}
+.li-style{
+    font-family: Khmer OS Siemreap;
+    text-align: justify;
+}
+/* end style about */
+
+/* start syle position */
+.top-style{
+    background: linear-gradient(to bottom, #89cbed 0%, #ccffff 100%);
+    padding: 3px;
+}
+.position-text-h2{
+    font-family: bayon;
+    font-size: 40px;
+    color: inherit;
+    text-align: center;
+}
+
+.contain-position{
+    display: flex;
+    width: 100%;
+}
+.position-left{
+    width: 100%; 
+    overflow: hidden;  
+    position: relative;
+}
+.position-border img{
+    border-radius: 8px;
+    border-bottom: 5px solid rgb(70, 240, 36);
+    width: 320px;
+}
+.director{
+    font-family: Khmer OS Muol Light;
+}
+.position-section{
+    font-family: khmer os siemreap;
+}
+ 
+
+
+/* start style contact */
+.contact-text-h2{
+    font-family: bayon;
+    font-size: 40px;
+    color: inherit;
+    text-align: center;
+}
+.contact-text-h2:hover{
+    color: rgb(6, 221, 35);
+}
+.contain-contact{
+    display: flex;
+    width: 100%;
+}
+.contact-left{
+    width: 100%;
+    overflow: hidden;  
+    position: relative;
+}
+.contact-border img{
+    border-radius: 8px;
+    border: 5px solid rgb(241, 157, 31);
+    width: 500px;
+   
+    /* padding: 20px; */   
+}
+.contact-border iframe{
+    width: 500px;
+    height: 390px;
+   
+    /* padding: 20px; */   
+}
+
+/* end style contact */
+
+
+
+/* start style info */
+.info-text-h2{
+    font-family: bayon;
+    font-size: 40px;
+    color: inherit;
+    text-align: center;
+}
+.contain-info{
+    display: flex;
+    width: 90%;
+}
+.info-left{
+    width: 100%;
+    overflow: hidden;  
+    position: relative;
+}
+.info-border img{
+    border-radius: 8px;
+    border-bottom: 5px solid rgb(90, 27, 237);
+    width: 150px;
+    margin-left: 250px;
+    /* padding: 20px; */   
+}
+.info-border p{
+    width: 400px;
+    height: 100px;
+    margin-inline-end: 200px;
+
+
+    /* padding: 20px; */   
+ 
+}
+.info-p{
+    font-family: Khmer OS Siemreap;
+    text-align: justify;
+    border-bottom: 2px solid burlywood;
+}
+.info-p{
+    font-family: Khmer OS Siemreap;
+    text-align: justify;
+}
+.info-p a:hover{
+    text-decoration-color: blueviolet;
+    color: blueviolet;
+   
+}
+.maintenance img{
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+
+/* end style info */
+
+/* start style content */
+.content-border{
+    font-family: Khmer OS Siemreap;
+    text-align: justify;;
+}
+/* end style content */
+
+
+
+
+
+
+
+
+
+
+/* start style footer */
+.footer{
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    text-align: center;
+    color:rgb(63, 63, 176);
+    line-height: 2rem;
+}
+.text-center a{
+    
+    margin: 10px 0;
+    color: rgb(63, 63, 176);
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+/* end style footer */
